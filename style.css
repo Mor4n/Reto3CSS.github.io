@@ -22,6 +22,11 @@ nav{
     
 }
 
+/* lo pongo de una vez para que se vaya a la derecha */
+main{
+    display: flex;
+}
+
 #logo{
     width: 40px;
 }
@@ -44,16 +49,22 @@ body{
 }
 /* esto es de la section bibloiteca */
 #biblioteca{
-
+    border: 2px solid red;
+    width: 400px;
+    padding-top: 30px;
 }
 #biblioteca-h2{
     color: #fefefe;
+    font-size: 20px;
 }
 .biblioteca-card{
+    display: flex;
+    
 
 }
-.biblioteca-img{
 
+.biblioteca-img{
+    width: 20%;
 }
 .biblioteca-titulo{
     color: #fefefe;
