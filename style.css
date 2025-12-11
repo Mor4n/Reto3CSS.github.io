@@ -5,6 +5,30 @@
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
 }
+
+header{
+    background-color: #000000;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 0 auto;
+    
+}
+
+#logo{
+    width: 40px;
+}
+#inicio{
+    width: 40px;
+}
+
 body{
     background-color: #121212;
 }
