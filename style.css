@@ -28,7 +28,56 @@ nav{
 #inicio{
     width: 40px;
 }
+#buscador{
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+    background-color: #2a2a2a;
+    border: none;
+    padding: 10px;
+    color: #b3b3af;
+
+}
 
 body{
     background-color: #121212;
+}
+/* esto es de la section bibloiteca */
+#biblioteca{
+
+}
+#biblioteca-h2{
+    color: #fefefe;
+}
+.biblioteca-card{
+
+}
+.biblioteca-img{
+
+}
+.biblioteca-titulo{
+    color: #fefefe;
+}
+.biblioteca-autor{
+    color: #bebebe;
+    font-weight: bold;
+}
+/* aside de descargar */
+#descarga{
+    
+}
+#descarga-titulo{
+    color: #fefefe;
+}
+#descarga-parrafo{
+    color: #b0b0b0;
+}
+#descarga-btn{
+    color: #000000;
+    background-color: #3be477;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 300px;
+    height: 50px;
 }
