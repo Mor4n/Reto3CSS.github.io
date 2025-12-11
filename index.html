@@ -8,14 +8,48 @@
 </head>
 <body>
     <header>
-        <img src="./img/logo.png" alt="Logo spotify" class="logo">
+            <img src="./img/logo.png" alt="Logo spotify" id="logo">
+            
+            <input type="text" id="buscador" placeholder="¿Qué quieres reproducir?">
         
-        <input type="text" class="buscador" placeholder="¿Qué quieres reproducir?">
     </header>
     <main>
-        <section>
+
+        <section id="biblioteca">
+            <h2 id="biblioteca-h2">Tu biblioteca</h2>
+            <article class="biblioteca-card">
+                <img src="./img/megusta.png" alt="Ícono de 'tus me gusta'" class="biblioteca-img">
+                <h3 class="biblioteca-titulo">Tus me gusta</h3>
+                <p class="biblioteca-autor">Playlist * 709 canciones</p>
+            </article>
+            <article class="biblioteca-card">
+                <img src="./img/k-indie.png" alt="Ícono de playlist 'k-indie'" class="biblioteca-img">
+                <h3 class="biblioteca-titulo">K-indie</h3>
+                <p class="biblioteca-autor">📌Playlist * Morán</p>
+            </article>
+            <article class="biblioteca-card">
+                <img src="./img/workout.png" alt="Ícono de playlist 'workout'" class="biblioteca-img">
+                <h3 class="biblioteca-titulo">Workout</h3>
+                <p class="biblioteca-autor">📌Playlist * Morán</p>
+            </article>
+
+        </section>
+
+        <section id="menu-principal">
+            
             
         </section>
+
+        <aside id="descarga">
+            <img src="./img/descarga.png" alt="Imagen de spotify para windows" id="descarga-img">
+            <h3 id="descarga-titulo">Descarga Spotify para Windows</h3>
+            <p id="descarga-parrafo">Disfruta de audio de alta calidad, reproducción
+            en modo offline y un feed de amigos dinámico
+            para estar al día con 10 que les gusta a tus
+            personas favoritas.</p>
+            <button id="descarga-btn">Descargar la aplicación gratuita</button>
+        </aside>
+
 
     </main>
     
