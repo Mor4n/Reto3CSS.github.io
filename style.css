@@ -51,6 +51,7 @@ nav{
 main{
     display: flex;
     background-color: #000000;
+    min-height: 100vh;
 }
 
 #biblioteca,#menu-principal,#descarga{
