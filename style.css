@@ -6,12 +6,21 @@
     font-family: "Open Sans", sans-serif;
 }
 
+body{
+
+}
+
 header{
     background-color: #000000;
     height: 75px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+#logo{
+    width: 40px;
 }
 
 nav{
@@ -22,14 +31,7 @@ nav{
     
 }
 
-/* lo pongo de una vez para que se vaya a la derecha */
-main{
-    display: flex;
-}
 
-#logo{
-    width: 40px;
-}
 #inicio{
     width: 40px;
 }
@@ -44,13 +46,22 @@ main{
 
 }
 
-body{
+
+/* lo pongo de una vez para que se vaya a la derecha */
+main{
+    display: flex;
+    background-color: #000000;
+}
+
+#biblioteca,#menu-principal,#descarga{
     background-color: #121212;
 }
-/* esto es de la section bibloiteca */
+
+
+/* esto es de la section bibloiteca, la parte izquierda */
 #biblioteca{
     border: 2px solid red;
-    width: 400px;
+    width: 22%;
     padding-top: 30px;
 }
 #biblioteca-h2{
@@ -73,9 +84,28 @@ body{
     color: #bebebe;
     font-weight: bold;
 }
-/* aside de descargar */
+
+/* seccion del centro, menu-principal */
+
+#menu-principal{
+    border: 2px solid red;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+/* aside de descargar, es la parte de la derecha */
 #descarga{
-    
+    width: 22%;
+    margin-right: 10px;
+}
+#descarga-img{
+    width: 100%;
 }
 #descarga-titulo{
     color: #fefefe;
