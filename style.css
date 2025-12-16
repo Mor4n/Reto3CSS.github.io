@@ -130,8 +130,8 @@ main{
     display: flex;
     background-color: #37373a;
     align-items: center;
-    margin: 9px 4px;
-    border-radius: 10px;
+    margin: 9px 4px 0px 4px;
+    border-radius: 4px;
     cursor: pointer;
     /* NOTAA: CON OVERFLOW HIDDEN SE ARREGLA DE QUE SE VE FEOO */
     overflow: hidden;
