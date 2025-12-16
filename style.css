@@ -209,6 +209,7 @@ main{
     height: 250px;
     margin: 10px 25px 0px 0px;
     border-radius: 10px;
+    cursor: pointer;
 
 }
 .hecho-playlist:hover{
@@ -227,6 +228,43 @@ main{
     font-size: 12px;
     font-weight: 600;
 }
+
+/* Apartado de estaciones */
+
+.estaciones-principal{
+
+}
+.estaciones-texto{
+
+}
+#estaciones-desc{
+
+}
+#estaciones-recomendadas{
+
+}
+#estaciones-mostrar{
+    
+}
+
+.estaciones-tarjetas{
+
+}
+.estacion-tarjeta{
+
+}
+.estacion-img{
+
+}
+.estacion-texto{
+
+}
+
+
+
+
+
+
 
 
 
