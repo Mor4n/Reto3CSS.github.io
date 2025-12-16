@@ -100,10 +100,10 @@ main{
     display: flex;
     width: 400px;
     height: 75px;
-
 }
 .biblioteca-card:hover{
     background-color: #1f1f1f;
+
 }
 
 .biblioteca-img{
