@@ -196,6 +196,8 @@ main{
 .hecho-playlists{
     display: flex;
     flex-wrap: nowrap;
+    overflow: hidden;
+
 }
 
 .hecho-playlist{
