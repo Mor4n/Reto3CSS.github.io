@@ -102,7 +102,7 @@ main{
 .botones-principal{
     margin: 18px 35px;
 }
-.btn-principal{
+.boton-principal{
     border-radius: 30px;
     padding: 7px 12px;
     color: white;
@@ -112,7 +112,7 @@ main{
     margin-right: 5px;
     cursor: pointer;
 }
-.btn-principal:hover{
+.boton-principal:hover{
     background-color: #5c5c66;
     transition: .55s;
 }
