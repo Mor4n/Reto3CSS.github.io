@@ -96,15 +96,16 @@ main{
     border-radius: 15px;
 }
 
+/* botones como todo, música, podcasts */
 .botones-principal{
-    margin: 25px 35px;
+    margin: 18px 35px;
 }
 .btn-principal{
     border-radius: 30px;
-    padding: 10px 14px;
+    padding: 7px 12px;
     color: white;
     background-color: #3c3c43;
-    font-weight: bold;
+    font-weight: 500;
     border: none;
     margin-right: 5px;
     cursor: pointer;
@@ -114,9 +115,21 @@ main{
     transition: .55s;
 }
 
+/* estos son los cuadritos como de playlists recientes en el centro */
+.playlists-principal{
 
+}
 
+/* tarjetita de cada playlist */
+.playlist-reciente{
 
+}
+.playlist-reciente-img{
+
+}
+.playlist-reciente-nombre{
+    
+}
 
 
 
