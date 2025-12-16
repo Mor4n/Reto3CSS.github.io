@@ -165,7 +165,6 @@ main{
 /* contenedor del texto */
 .hecho-texto{
     margin-right: 55px;
-
 }
 
 #hecho-para{
@@ -185,9 +184,12 @@ main{
     text-align: end;
     font-weight: 700;
     font-size: 13px;
-    cursor: pointer;
 }
-#hecho-mostrar:hover{
+#hecho-mostrar span{
+    cursor: pointer;
+
+}
+#hecho-mostrar span:hover{
     text-decoration: underline;
 }
 
@@ -222,7 +224,8 @@ main{
 .hecho-texto{
     padding-left:15px;
     color: #a3a3a3;
-    font-size: 11px;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 
