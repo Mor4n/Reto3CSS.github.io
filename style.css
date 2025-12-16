@@ -154,56 +154,55 @@ main{
     transition: .6s;
 }
 
-/* hecho para, parte de abajo de las playlist principales */
+/* hecho para, parte de abajo de las playlist principales Y PARTE DE ESTACIONES */
 
-.hecho-principal{
+.hecho-principal,.estaciones-principal{
     /* border: 2px solid red; */
-    margin-top: 30px;
-    margin-left:35px;
-    height: 250px; 
+    margin: 30px 35px;
+
 }
 /* contenedor del texto */
-.hecho-texto{
+.hecho-texto,.estaciones-texto{
     margin-right: 55px;
 }
 
-#hecho-para{
+#hecho-para, #estaciones-desc{
     color: #a3a3a3;
     font-size: 12px;
     font-weight: 300;
 }
-#hecho-nombre{
+#hecho-nombre,#estaciones-recomendadas{
     color: #FEFEFE;
     font-size: 22px;
     font-weight: 600;
 }
 
-/* parte de hecho que va a la der */
-#hecho-mostrar{
+/* parte de hecho que va a la der | PARTE DE ESTACIONES DE MOSTRAR TODO*/
+#hecho-mostrar,#estaciones-mostrar{
     color:#a3a3a3;
     text-align: end;
     font-weight: 700;
     font-size: 13px;
 }
-#hecho-mostrar span{
+#hecho-mostrar span, #estaciones-mostrar span{
     cursor: pointer;
 
 }
-#hecho-mostrar span:hover{
+#hecho-mostrar span:hover, #estaciones-mostrar span:hover{
     text-decoration: underline;
 }
 
 
 
-/* tarjetitas de cada playlist de hecho para ti */
-.hecho-playlists{
+/* tarjetitas de cada playlist de hecho para ti  Y DE ESTACIONES*/
+.hecho-playlists, .estaciones-tarjetas{
     display: flex;
     flex-wrap: nowrap;
     overflow: hidden;
 
 }
 
-.hecho-playlist{
+.hecho-playlist, .estacion-tarjeta{
     /* border: 2px solid red; */
     width: 200px;
     height: 250px;
@@ -212,54 +211,22 @@ main{
     cursor: pointer;
 
 }
-.hecho-playlist:hover{
+.hecho-playlist:hover, .estacion-tarjeta:hover{
     background-color: #202020;
 }
-.hecho-img{
+.hecho-img, .estacion-img{
     width: 95%;
     padding: 10px 0px 0px 10px;
     object-fit: cover;
     border-radius: 25px;
 
 }
-.hecho-texto{
+.hecho-texto, .estacion-texto{
     padding-left:15px;
     color: #a3a3a3;
     font-size: 12px;
     font-weight: 600;
 }
-
-/* Apartado de estaciones */
-
-.estaciones-principal{
-
-}
-.estaciones-texto{
-
-}
-#estaciones-desc{
-
-}
-#estaciones-recomendadas{
-
-}
-#estaciones-mostrar{
-    
-}
-
-.estaciones-tarjetas{
-
-}
-.estacion-tarjeta{
-
-}
-.estacion-img{
-
-}
-.estacion-texto{
-
-}
-
 
 
 
