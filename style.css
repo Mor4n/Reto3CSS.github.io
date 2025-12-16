@@ -60,9 +60,11 @@ main{
 
 /* esto es de la section bibloiteca, la parte izquierda */
 #biblioteca{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 22%;
     padding-top: 30px;
+    margin-left:5px;
+    border-radius: 15px;
 }
 #biblioteca-h2{
     color: #fefefe;
@@ -88,8 +90,10 @@ main{
 /* seccion del centro, menu-principal */
 
 #menu-principal{
-    border: 2px solid red;
-    width: 100%;
+    /* border: 2px solid red; */
+    width: 56%;
+    margin: 0px 10px;
+    border-radius: 15px;
 }
 
 
@@ -103,6 +107,7 @@ main{
 #descarga{
     width: 22%;
     margin-right: 10px;
+    border-radius: 15px;
 }
 #descarga-img{
     width: 100%;
