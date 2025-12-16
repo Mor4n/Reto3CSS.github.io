@@ -161,20 +161,33 @@ main{
     margin-left:35px;
     height: 250px; 
 }
+/* contenedor del texto */
 .hecho-texto{
+    margin-right: 55px;
 
 }
 
 #hecho-para{
-
+    color: #a3a3a3;
+    font-size: 12px;
+    font-weight: 300;
 }
 #hecho-nombre{
-
+    color: #FEFEFE;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 /* parte de hecho que va a la der */
 #hecho-mostrar{
-
+    color:#a3a3a3;
+    text-align: end;
+    font-weight: 700;
+    font-size: 13px;
+    cursor: pointer;
+}
+#hecho-mostrar:hover{
+    text-decoration: underline;
 }
 
 /* tarjetitas de cada playlist de hecho para ti */
