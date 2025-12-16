@@ -71,6 +71,30 @@ main{
     color: #fefefe;
     font-size: 20px;
 }
+
+
+/* Parte de botones, tanto de biblioteca como del menu principal */
+.biblioteca-botones{
+    margin:10px 15px;
+}
+.biblioteca-boton,.boton-principal{
+    border-radius: 30px;
+    padding: 7px 12px;
+    color: white;
+    background-color: #3c3c43;
+    font-weight: 500;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+    
+}
+.biblioteca-boton:hover, .boton-principal:hover{
+    background-color: #5c5c66;
+    transition: .55s;
+}
+
+
+
 .biblioteca-card{
     display: flex;
     
@@ -98,24 +122,11 @@ main{
     border-radius: 15px;
 }
 
-/* botones como todo, música, podcasts */
+/* margin de botones principales del centro */
 .botones-principal{
     margin: 18px 35px;
 }
-.boton-principal{
-    border-radius: 30px;
-    padding: 7px 12px;
-    color: white;
-    background-color: #3c3c43;
-    font-weight: 500;
-    border: none;
-    margin-right: 5px;
-    cursor: pointer;
-}
-.boton-principal:hover{
-    background-color: #5c5c66;
-    transition: .55s;
-}
+
 
 /* estos son los cuadritos como de playlists recientes en el centro */
 .playlists-principal{
