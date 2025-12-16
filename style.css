@@ -153,6 +153,44 @@ main{
     transition: .6s;
 }
 
+/* hecho para, parte de abajo de las playlist principales */
+
+.hecho-principal{
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    margin-left:35px;
+    height: 250px; 
+}
+.hecho-texto{
+
+}
+
+#hecho-para{
+
+}
+#hecho-nombre{
+
+}
+
+/* parte de hecho que va a la der */
+#hecho-mostrar{
+
+}
+
+/* tarjetitas de cada playlist de hecho para ti */
+.hecho-playlists{
+
+}
+
+.hecho-playlist{
+
+}
+.hecho-img{
+
+}
+.hecho-texto{
+
+}
 
 
 
