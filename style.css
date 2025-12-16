@@ -192,17 +192,21 @@ main{
 
 /* tarjetitas de cada playlist de hecho para ti */
 .hecho-playlists{
-
+    display: flex;
 }
 
 .hecho-playlist{
-
+    width: 200px;
+    height: 250px;
+    border: 2px solid red;
 }
 .hecho-img{
-
+    width: 100%;
+    object-fit: cover;
 }
 .hecho-texto{
-
+    color: #a3a3a3;
+    font-size: 10px;
 }
 
 
