@@ -92,6 +92,7 @@ main{
 #menu-principal{
     /* border: 2px solid red; */
     width: 56%;
+    
     margin: 0px 10px;
     border-radius: 15px;
 }
@@ -117,18 +118,37 @@ main{
 
 /* estos son los cuadritos como de playlists recientes en el centro */
 .playlists-principal{
-
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 35px;
 }
 
 /* tarjetita de cada playlist */
 .playlist-reciente{
+    width: 235px;
+    height: 50px;
+    display: flex;
+    background-color: #37373a;
+    align-items: center;
+    margin: 9px 4px;
+    border-radius: 10px;
+    cursor: pointer;
 
 }
 .playlist-reciente-img{
-
+    width: 45px;
+    height: 100%;
+    object-fit:cover;
 }
 .playlist-reciente-nombre{
-    
+    margin-left: 5px;
+    color: #fefefe;
+    font-weight: 600;
+    font-size: 13px;
+}
+.playlist-reciente:hover{
+    background-color: #44454b;
+    transition: .6s;
 }
 
 
