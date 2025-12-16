@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
@@ -94,6 +94,24 @@ main{
     width: 56%;
     margin: 0px 10px;
     border-radius: 15px;
+}
+
+.botones-principal{
+    margin: 25px 35px;
+}
+.btn-principal{
+    border-radius: 30px;
+    padding: 10px 14px;
+    color: white;
+    background-color: #3c3c43;
+    font-weight: bold;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+.btn-principal:hover{
+    background-color: #5c5c66;
+    transition: .55s;
 }
 
 
